@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npm run generate-faces && vite build",
+    "preview": "vite preview",
+    "generate-faces": "node scripts/generate-faces.js"
   },
   "devDependencies": {
     "vite": "^5.0.0",
