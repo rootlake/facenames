@@ -2,7 +2,7 @@
 export const groups = {
   'isaac-facilities': {
     name: 'Isaac Facilities',
-    path: '/groups/isaac-facilities',
+    path: '/facenames/groups/isaac-facilities',
     files: [
       'Brenda_Bullied.png',
       'Charles_Delsignore.png',
