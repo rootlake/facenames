@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaceNames</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div class="app">
+      <div class="group-selector">
+        <select id="group-select">
+          <option value="isaac-facilities" selected>Isaac Facilities</option>
+        </select>
+      </div>
+      <div class="swipe-container">
+        <div class="card">
+          <div class="face-container">
+            <img id="face" src="" alt="Face to learn">
+          </div>
+          <div class="name-container">
+            <div class="name-content">
+              <p id="firstName">First</p>
+              <p id="lastName">Last</p>
+            </div>
+            <button class="check-button">CHECK</button>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="next-button" id="next">Next</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html> 
